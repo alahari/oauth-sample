@@ -3,3 +3,8 @@ CREATE TABLE oauth_code (
   authentication         BLOB
 );
 
+CREATE TABLE  payload (
+  token           VARCHAR PRIMARY KEY,
+  payload         VARCHAR
+);
+
